@@ -12,8 +12,8 @@ Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUM,PIN, NEO_GRB + NEO_KHZ800);
 WebServer server(80);
 WiFiMulti WiFiMulti;
 
-char ssid[] = "Groeten aan je tante";
-char pass[] = "123456789wifivantim";
+char ssid[] = "secret";
+char pass[] = "secret";
 
 int servoPin = 32;
 int r,g,b,data;
